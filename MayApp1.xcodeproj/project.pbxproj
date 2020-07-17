@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E31ED181D5AF75CEBAABC17 /* Pods_MayApp1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D034C4550C8F9BE2A4AB1688 /* Pods_MayApp1Tests.framework */; };
+		5E09032B24A008140046CD09 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E09032A24A008140046CD09 /* SignUpViewController.swift */; };
+		5E09032D24A0094E0046CD09 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E09032C24A0094E0046CD09 /* LogInViewController.swift */; };
+		5E09033024A02B130046CD09 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E09032F24A02B130046CD09 /* Utilities.swift */; };
+		5E09033224A02E2D0046CD09 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E09033124A02E2D0046CD09 /* FirstViewController.swift */; };
+		5E09033424A0322B0046CD09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E09033324A0322B0046CD09 /* GoogleService-Info.plist */; };
 		5E137E6D247DAE0200EF0308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E137E6C247DAE0200EF0308 /* AppDelegate.swift */; };
 		5E137E6F247DAE0200EF0308 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E137E6E247DAE0200EF0308 /* SceneDelegate.swift */; };
 		5E137E71247DAE0200EF0308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E137E70247DAE0200EF0308 /* ViewController.swift */; };
@@ -15,6 +21,26 @@
 		5E137E79247DAE0300EF0308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E137E77247DAE0300EF0308 /* LaunchScreen.storyboard */; };
 		5E137E84247DAE0300EF0308 /* MayApp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E137E83247DAE0300EF0308 /* MayApp1Tests.swift */; };
 		5E137E8F247DAE0300EF0308 /* MayApp1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E137E8E247DAE0300EF0308 /* MayApp1UITests.swift */; };
+		5E31BB4224B2750900BA58A6 /* EditMyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E31BB4124B2750900BA58A6 /* EditMyPage.swift */; };
+		5EFC10DA24A19C0600C24644 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC10D924A19C0600C24644 /* Constants.swift */; };
+		762F462224A5585700FE86B3 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F462124A5585700FE86B3 /* ChatViewController.swift */; };
+		76898EB524A45741008F1854 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76898EB424A45741008F1854 /* AppManager.swift */; };
+		76898EB724A45758008F1854 /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76898EB624A45758008F1854 /* AppContainerViewController.swift */; };
+		76898EB924A46023008F1854 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76898EB824A46023008F1854 /* ProfileViewController.swift */; };
+		76ABDAE42486D5B400A3EE36 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ABDAE32486D5B400A3EE36 /* ScheduleViewController.swift */; };
+		76ABDAE62486D71300A3EE36 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ABDAE52486D71300A3EE36 /* CommunityViewController.swift */; };
+		76ABDAE82486D84E00A3EE36 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ABDAE72486D84D00A3EE36 /* SettingViewController.swift */; };
+		76ABDB0A2486F4B400A3EE36 /* CalcSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ABDB092486F4B400A3EE36 /* CalcSearchViewController.swift */; };
+		76AE3B3E24A54FFA00F187FB /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE3B3D24A54FFA00F187FB /* MessageViewController.swift */; };
+		76D679B82495A694003E9F8E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D679B72495A694003E9F8E /* TableViewController.swift */; };
+		76F1B8B024BD3057009BD956 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1B8AF24BD3057009BD956 /* DatabaseManager.swift */; };
+		76F6B8E124870C13000D9C7D /* EnglishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6B8E024870C13000D9C7D /* EnglishViewController.swift */; };
+		76F6B8E324870D6A000D9C7D /* SpanishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6B8E224870D6A000D9C7D /* SpanishViewController.swift */; };
+		76F6B8E524870D96000D9C7D /* FrenchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6B8E424870D96000D9C7D /* FrenchViewController.swift */; };
+		76F6B8E724872881000D9C7D /* ChineseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6B8E624872881000D9C7D /* ChineseViewController.swift */; };
+		76F6B8E924872E03000D9C7D /* LanguageTutorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6B8E824872E03000D9C7D /* LanguageTutorsViewController.swift */; };
+		ADEADA4D6FE459852C13BDB9 /* Pods_MayApp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B93F27DCF3E647E96F5BD7 /* Pods_MayApp1.framework */; };
+		E56ED2CC87249CB7B8E4D911 /* Pods_MayApp1_MayApp1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ABB451859B6E05485E5B8B /* Pods_MayApp1_MayApp1UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02ADA9C2C4AEA1C29852A98D /* Pods-MayApp1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayApp1Tests.debug.xcconfig"; path = "Target Support Files/Pods-MayApp1Tests/Pods-MayApp1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E09032A24A008140046CD09 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5E09032C24A0094E0046CD09 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		5E09032F24A02B130046CD09 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5E09033124A02E2D0046CD09 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5E09033324A0322B0046CD09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../MayApp/MayApp1/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E137E69247DAE0200EF0308 /* MayApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E137E6C247DAE0200EF0308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E137E6E247DAE0200EF0308 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +81,32 @@
 		5E137E8A247DAE0300EF0308 /* MayApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E137E8E247DAE0300EF0308 /* MayApp1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MayApp1UITests.swift; sourceTree = "<group>"; };
 		5E137E90247DAE0300EF0308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E31BB4124B2750900BA58A6 /* EditMyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMyPage.swift; sourceTree = "<group>"; };
+		5EFC10D924A19C0600C24644 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		762F462124A5585700FE86B3 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		76898EB424A45741008F1854 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		76898EB624A45758008F1854 /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
+		76898EB824A46023008F1854 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		76ABDAE32486D5B400A3EE36 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		76ABDAE52486D71300A3EE36 /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		76ABDAE72486D84D00A3EE36 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		76ABDB092486F4B400A3EE36 /* CalcSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcSearchViewController.swift; sourceTree = "<group>"; };
+		76AE3B3D24A54FFA00F187FB /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		76D679B72495A694003E9F8E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		76F1B8AF24BD3057009BD956 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		76F6B8E024870C13000D9C7D /* EnglishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
+		76F6B8E224870D6A000D9C7D /* SpanishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpanishViewController.swift; sourceTree = "<group>"; };
+		76F6B8E424870D96000D9C7D /* FrenchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenchViewController.swift; sourceTree = "<group>"; };
+		76F6B8E624872881000D9C7D /* ChineseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseViewController.swift; sourceTree = "<group>"; };
+		76F6B8E824872E03000D9C7D /* LanguageTutorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTutorsViewController.swift; sourceTree = "<group>"; };
+		8C9768F340AE0EEAAD106855 /* Pods-MayApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayApp1.debug.xcconfig"; path = "Target Support Files/Pods-MayApp1/Pods-MayApp1.debug.xcconfig"; sourceTree = "<group>"; };
+		A04E97C9DCF128B80DF41120 /* Pods-MayApp1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayApp1Tests.release.xcconfig"; path = "Target Support Files/Pods-MayApp1Tests/Pods-MayApp1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A99DCDA792298F68D0D7E160 /* Pods-MayApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayApp1.release.xcconfig"; path = "Target Support Files/Pods-MayApp1/Pods-MayApp1.release.xcconfig"; sourceTree = "<group>"; };
+		C2B93F27DCF3E647E96F5BD7 /* Pods_MayApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D034C4550C8F9BE2A4AB1688 /* Pods_MayApp1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayApp1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61963E5C63773B58C973BCA /* Pods-MayApp1-MayApp1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayApp1-MayApp1UITests.debug.xcconfig"; path = "Target Support Files/Pods-MayApp1-MayApp1UITests/Pods-MayApp1-MayApp1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4ABB451859B6E05485E5B8B /* Pods_MayApp1_MayApp1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MayApp1_MayApp1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FB53FBF5DBFC98EBDCF773 /* Pods-MayApp1-MayApp1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayApp1-MayApp1UITests.release.xcconfig"; path = "Target Support Files/Pods-MayApp1-MayApp1UITests/Pods-MayApp1-MayApp1UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEADA4D6FE459852C13BDB9 /* Pods_MayApp1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E31ED181D5AF75CEBAABC17 /* Pods_MayApp1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +130,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56ED2CC87249CB7B8E4D911 /* Pods_MayApp1_MayApp1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		314486CE9EC828C7190783D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2B93F27DCF3E647E96F5BD7 /* Pods_MayApp1.framework */,
+				F4ABB451859B6E05485E5B8B /* Pods_MayApp1_MayApp1UITests.framework */,
+				D034C4550C8F9BE2A4AB1688 /* Pods_MayApp1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43DF98BB4B4C3EFE35A40F64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C9768F340AE0EEAAD106855 /* Pods-MayApp1.debug.xcconfig */,
+				A99DCDA792298F68D0D7E160 /* Pods-MayApp1.release.xcconfig */,
+				D61963E5C63773B58C973BCA /* Pods-MayApp1-MayApp1UITests.debug.xcconfig */,
+				F4FB53FBF5DBFC98EBDCF773 /* Pods-MayApp1-MayApp1UITests.release.xcconfig */,
+				02ADA9C2C4AEA1C29852A98D /* Pods-MayApp1Tests.debug.xcconfig */,
+				A04E97C9DCF128B80DF41120 /* Pods-MayApp1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E09032E24A02ACD0046CD09 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				76F1B8AE24BD300E009BD956 /* Resources */,
+				5E09032F24A02B130046CD09 /* Utilities.swift */,
+				5EFC10D924A19C0600C24644 /* Constants.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
 		5E137E60247DAE0200EF0308 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +177,8 @@
 				5E137E82247DAE0300EF0308 /* MayApp1Tests */,
 				5E137E8D247DAE0300EF0308 /* MayApp1UITests */,
 				5E137E6A247DAE0200EF0308 /* Products */,
+				43DF98BB4B4C3EFE35A40F64 /* Pods */,
+				314486CE9EC828C7190783D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +195,16 @@
 		5E137E6B247DAE0200EF0308 /* MayApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				5E09032E24A02ACD0046CD09 /* helper */,
+				5E5EC9CB24A6C4CC003967DE /* View Controllers */,
 				5E137E6C247DAE0200EF0308 /* AppDelegate.swift */,
 				5E137E6E247DAE0200EF0308 /* SceneDelegate.swift */,
-				5E137E70247DAE0200EF0308 /* ViewController.swift */,
+				76898EB424A45741008F1854 /* AppManager.swift */,
 				5E137E72247DAE0200EF0308 /* Main.storyboard */,
 				5E137E75247DAE0300EF0308 /* Assets.xcassets */,
 				5E137E77247DAE0300EF0308 /* LaunchScreen.storyboard */,
 				5E137E7A247DAE0300EF0308 /* Info.plist */,
+				5E09033324A0322B0046CD09 /* GoogleService-Info.plist */,
 			);
 			path = MayApp1;
 			sourceTree = "<group>";
@@ -128,6 +227,48 @@
 			path = MayApp1UITests;
 			sourceTree = "<group>";
 		};
+		5E5EC9CB24A6C4CC003967DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E09033124A02E2D0046CD09 /* FirstViewController.swift */,
+				5E09032C24A0094E0046CD09 /* LogInViewController.swift */,
+				5E09032A24A008140046CD09 /* SignUpViewController.swift */,
+				5E137E70247DAE0200EF0308 /* ViewController.swift */,
+				5E5EC9CC24A6C585003967DE /* Community View Controller */,
+				76ABDAE32486D5B400A3EE36 /* ScheduleViewController.swift */,
+				76ABDAE72486D84D00A3EE36 /* SettingViewController.swift */,
+				76898EB824A46023008F1854 /* ProfileViewController.swift */,
+				5E31BB4124B2750900BA58A6 /* EditMyPage.swift */,
+				76AE3B3D24A54FFA00F187FB /* MessageViewController.swift */,
+				762F462124A5585700FE86B3 /* ChatViewController.swift */,
+				76898EB624A45758008F1854 /* AppContainerViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5E5EC9CC24A6C585003967DE /* Community View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76ABDAE52486D71300A3EE36 /* CommunityViewController.swift */,
+				76F6B8E824872E03000D9C7D /* LanguageTutorsViewController.swift */,
+				76F6B8E424870D96000D9C7D /* FrenchViewController.swift */,
+				76F6B8E224870D6A000D9C7D /* SpanishViewController.swift */,
+				76F6B8E024870C13000D9C7D /* EnglishViewController.swift */,
+				76ABDB092486F4B400A3EE36 /* CalcSearchViewController.swift */,
+				76F6B8E624872881000D9C7D /* ChineseViewController.swift */,
+				76D679B72495A694003E9F8E /* TableViewController.swift */,
+			);
+			path = "Community View Controller";
+			sourceTree = "<group>";
+		};
+		76F1B8AE24BD300E009BD956 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76F1B8AF24BD3057009BD956 /* DatabaseManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +276,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E137E93247DAE0300EF0308 /* Build configuration list for PBXNativeTarget "MayApp1" */;
 			buildPhases = (
+				A0DA81DE6CBB3E11F132AE03 /* [CP] Check Pods Manifest.lock */,
 				5E137E65247DAE0200EF0308 /* Sources */,
 				5E137E66247DAE0200EF0308 /* Frameworks */,
 				5E137E67247DAE0200EF0308 /* Resources */,
+				CE12CE6030391F688F12427B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E137E96247DAE0300EF0308 /* Build configuration list for PBXNativeTarget "MayApp1Tests" */;
 			buildPhases = (
+				8D8E9F16A7F60EF303AB0738 /* [CP] Check Pods Manifest.lock */,
 				5E137E7B247DAE0300EF0308 /* Sources */,
 				5E137E7C247DAE0300EF0308 /* Frameworks */,
 				5E137E7D247DAE0300EF0308 /* Resources */,
@@ -170,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E137E99247DAE0300EF0308 /* Build configuration list for PBXNativeTarget "MayApp1UITests" */;
 			buildPhases = (
+				DBC8ECB3A93AB772B8386AFD /* [CP] Check Pods Manifest.lock */,
 				5E137E86247DAE0300EF0308 /* Sources */,
 				5E137E87247DAE0300EF0308 /* Frameworks */,
 				5E137E88247DAE0300EF0308 /* Resources */,
+				50BE0430E63775807A8FE72E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E137E79247DAE0300EF0308 /* LaunchScreen.storyboard in Resources */,
+				5E09033424A0322B0046CD09 /* GoogleService-Info.plist in Resources */,
 				5E137E76247DAE0300EF0308 /* Assets.xcassets in Resources */,
 				5E137E74247DAE0200EF0308 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +401,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50BE0430E63775807A8FE72E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayApp1-MayApp1UITests/Pods-MayApp1-MayApp1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayApp1-MayApp1UITests/Pods-MayApp1-MayApp1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayApp1-MayApp1UITests/Pods-MayApp1-MayApp1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8E9F16A7F60EF303AB0738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayApp1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DA81DE6CBB3E11F132AE03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayApp1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE12CE6030391F688F12427B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayApp1/Pods-MayApp1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayApp1/Pods-MayApp1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayApp1/Pods-MayApp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC8ECB3A93AB772B8386AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayApp1-MayApp1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E137E65247DAE0200EF0308 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,7 +511,29 @@
 			files = (
 				5E137E71247DAE0200EF0308 /* ViewController.swift in Sources */,
 				5E137E6D247DAE0200EF0308 /* AppDelegate.swift in Sources */,
+				5E09033224A02E2D0046CD09 /* FirstViewController.swift in Sources */,
+				76D679B82495A694003E9F8E /* TableViewController.swift in Sources */,
+				76898EB724A45758008F1854 /* AppContainerViewController.swift in Sources */,
 				5E137E6F247DAE0200EF0308 /* SceneDelegate.swift in Sources */,
+				76ABDB0A2486F4B400A3EE36 /* CalcSearchViewController.swift in Sources */,
+				76F1B8B024BD3057009BD956 /* DatabaseManager.swift in Sources */,
+				76F6B8E724872881000D9C7D /* ChineseViewController.swift in Sources */,
+				5E09033024A02B130046CD09 /* Utilities.swift in Sources */,
+				76ABDAE62486D71300A3EE36 /* CommunityViewController.swift in Sources */,
+				76F6B8E124870C13000D9C7D /* EnglishViewController.swift in Sources */,
+				5E09032D24A0094E0046CD09 /* LogInViewController.swift in Sources */,
+				5E31BB4224B2750900BA58A6 /* EditMyPage.swift in Sources */,
+				76ABDAE42486D5B400A3EE36 /* ScheduleViewController.swift in Sources */,
+				5E09032B24A008140046CD09 /* SignUpViewController.swift in Sources */,
+				76ABDAE82486D84E00A3EE36 /* SettingViewController.swift in Sources */,
+				76898EB524A45741008F1854 /* AppManager.swift in Sources */,
+				762F462224A5585700FE86B3 /* ChatViewController.swift in Sources */,
+				76F6B8E924872E03000D9C7D /* LanguageTutorsViewController.swift in Sources */,
+				76F6B8E324870D6A000D9C7D /* SpanishViewController.swift in Sources */,
+				76AE3B3E24A54FFA00F187FB /* MessageViewController.swift in Sources */,
+				76898EB924A46023008F1854 /* ProfileViewController.swift in Sources */,
+				76F6B8E524870D96000D9C7D /* FrenchViewController.swift in Sources */,
+				5EFC10DA24A19C0600C24644 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,16 +704,17 @@
 		};
 		5E137E94247DAE0300EF0308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9768F340AE0EEAAD106855 /* Pods-MayApp1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JX2B2TS264;
+				DEVELOPMENT_TEAM = 5Q6PBAV53X;
 				INFOPLIST_FILE = MayApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Calric.MayApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiang.MayApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,16 +723,17 @@
 		};
 		5E137E95247DAE0300EF0308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99DCDA792298F68D0D7E160 /* Pods-MayApp1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JX2B2TS264;
+				DEVELOPMENT_TEAM = 5Q6PBAV53X;
 				INFOPLIST_FILE = MayApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Calric.MayApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = Xiang.MayApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +742,7 @@
 		};
 		5E137E97247DAE0300EF0308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02ADA9C2C4AEA1C29852A98D /* Pods-MayApp1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +765,7 @@
 		};
 		5E137E98247DAE0300EF0308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A04E97C9DCF128B80DF41120 /* Pods-MayApp1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +788,7 @@
 		};
 		5E137E9A247DAE0300EF0308 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61963E5C63773B58C973BCA /* Pods-MayApp1-MayApp1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +809,7 @@
 		};
 		5E137E9B247DAE0300EF0308 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FB53FBF5DBFC98EBDCF773 /* Pods-MayApp1-MayApp1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
