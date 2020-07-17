@@ -19,7 +19,7 @@ final class DataBaseManager{
     }
 }
 
-//Account Management
+//Account Managementsdfasdf
 
 extension DataBaseManager{
     public func userExists(with email: String, completion: @escaping((Bool) -> Void)){
