@@ -24,5 +24,8 @@ pod 'Firebase/Core'
 pod 'Firebase/Firestore'
 pod 'MessageKit'
 pod 'Firebase/Storage'
-
+pod 'Firebase/Database'
+pod 'SDWebImage'
+pod 'JGProgressHUD'
+pod 'RealmSwift'
 end
