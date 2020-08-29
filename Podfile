@@ -28,4 +28,7 @@ pod 'Firebase/Database'
 pod 'SDWebImage'
 pod 'JGProgressHUD'
 pod 'RealmSwift'
+pod 'FBSDKCoreKit'
+pod 'FBSDKLoginKit'
+pod 'FBSDKShareKit'
 end
